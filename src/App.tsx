@@ -48,7 +48,7 @@ function App() {
             </div>
             <Skills/>
             <MeCard/>
-            <div className="container mx-auto h-fit mt-20 sm:mt-32 mb-44 px-4 sm:px-8 flex flex-col gap-12">
+            <div className="container mx-auto h-fit mt-20 sm:mt-32 mb-20 sm:mb-40 px-4 sm:px-8 flex flex-col gap-12">
                 <h3 className="font-bold text-xl sm:text-2xl md:text-3xl text-center w-fit py-2 sm:py-3 md:py-4 px-6 sm:px-8 md:px-10 bg-white rounded-lg sm:rounded-xl md:rounded-2xl shadow-[inset_7px_7px_14px_#e6e6e6,inset_-7px_-7px_14px_#ffffff] md:shadow-[inset_8px_8px_16px_#d9d9d9,inset_-8px_-8px_16px_#ffffff]">Мои работы</h3>
                 <div className='flex flex-col lg:flex-row flex-wrap gap-12'>
                     <div
