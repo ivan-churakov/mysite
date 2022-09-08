@@ -11,6 +11,7 @@ import survey2P from './assets/survey2.png'
 import survey2M from './assets/survey2-m.webp'
 import github from './assets/GitHub.png'
 import vk from './assets/vk.png'
+import leetcode from './assets/leetcode.png'
 import telegram from './assets/telegram.png'
 import sinomobi1 from './assets/sinomobi1.webp'
 import sinomobi1P from './assets/sinomobi1.png'
@@ -227,7 +228,7 @@ function App() {
                     <div
                         className="w-full lg:w-[500px] min-h-full p-6 sm:p-8 flex flex-col flex-1 rounded-xl bg-white shadow-[10px_10px_21px_#d9d9d9,-10px_-10px_21px_#ffffff]">
                         <div className="relative lg:h-48 xl:h-64 2xl:h-80 mb-4 cursor-pointer">
-                            <a href="https://github.com/ivan-churakov/survey-maker-front">
+                            <a href="https://sto-plexcar.spb.ru/">
                                 <picture>
                                     <source
                                         type="image/webp"
@@ -277,7 +278,7 @@ function App() {
                                 </picture>
                             </a>
                         </div>
-                        <a href='https://github.com/ivan-churakov/survey-maker-front'
+                        <a href='https://sto-plexcar.spb.ru/'
                            className="font-bold text-lg cursor-pointer">Plexcar</a>
                         <p className="font-medium">Занимался созданием сайта в команде вместе с дизайнерами и бекендерами</p>
                     </div>
@@ -302,6 +303,9 @@ function App() {
                     </a>
                     <a href='https://hh.ru/resume/b83d417aff08eb21980039ed1f5743796e6b6f'>
                         <img src={hh} alt="hh резюме Иван Чураков" className="w-10 sm:w-14 rounded-full"/>
+                    </a>
+                    <a href='https://leetcode.com/ivanchurakof/'>
+                        <img src={leetcode} alt="leetcode" className="w-10 sm:w-14 rounded-full"/>
                     </a>
                 </div>
             </div>
